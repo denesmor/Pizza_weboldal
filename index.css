@@ -14,8 +14,8 @@ body{
     
 }
 
-
-h1{
+#fejlec_cim{
+    font-size: xx-large;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 30px;
@@ -32,6 +32,11 @@ h1{
     color: rgb(255, 255, 255);
 }
 
+img{
+    height: 200px;
+    width: 300px;
+}
+
 a{
     color: #ccc;
     text-decoration: none;
@@ -39,4 +44,33 @@ a{
 
 p{
     color: #ccc;
+}
+
+#piadina{
+    background-color: rgb(51, 51, 51);
+}
+
+#pp{
+    color: white;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+#pp_table{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+.pp_p{
+    font-size: larger;
+    padding-left: 40px;
+}
+
+#pp_h_td{
+    vertical-align: text-top;
 }
