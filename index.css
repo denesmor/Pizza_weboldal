@@ -94,6 +94,10 @@ p{
     font-size: large;
 }
 
+#menu_h2{
+    padding-top: 40px;
+}
+
 #menuText{
     text-align: center;
     font-size: 25px;
@@ -103,9 +107,15 @@ p{
 #menu_opc{
     vertical-align: middle;
     width: 33%;
-    display: flex;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
+    padding-bottom: 50px;
+    float: none;
 }
 
 #menu_db{
@@ -200,5 +210,34 @@ p{
 }
 
 img{
-    width: 20%;
+    width: 50%;
+}
+
+#info{
+    background-color: rgb(16, 16, 16);
+
+}
+
+#lablec{
+    background-color: rgb(16, 16, 16);
+    text-align: center;
+    
+}
+
+#info_cim{
+    display: inline;
+    float: left;
+    width: 33%;
+}
+
+#info_nyit{
+    display: inline;
+    width: 33%;
+
+}
+
+#info_prob{
+    display: inline;
+    float: right;
+    width: 33%;
 }
