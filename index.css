@@ -217,31 +217,67 @@ p{
 }
 
 
-#info{
+.grid-container{
     background-color: rgb(16, 16, 16);
-
-}
-
-#lablec{
-    background-color: rgb(16, 16, 16);
-    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
     
-}
-
-#info_cim{
-    display: inline;
-    float: left;
-    width: 33%;
-}
-
-#info_nyit{
-    display: inline;
-    width: 33%;
 
 }
 
-#info_prob{
-    display: inline;
-    float: right;
-    width: 33%;
+.grid-item__1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+
+}
+
+.grid-item__2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid-item__3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#szer_h2{
+    font-size: x-large;
+    color: white;
+}
+
+#nyit_p{
+    color: white;
+}
+
+#prob_p{
+    color: white;
+}
+
+#asztalfog_a{
+    color: white;
+    text-decoration: underline;
+}
+
+.nyit{
+    line-height: 5px;
+}
+
+.nyit_v{
+    line-height: 1px;
+    
 }
