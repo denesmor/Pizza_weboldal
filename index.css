@@ -167,6 +167,7 @@ p{
     width: 60%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 .gallery{
@@ -215,6 +216,27 @@ p{
     grid-row-start: 7;
     grid-row-end: 10;
 }
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-text{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
 
 
 .grid-container{
@@ -271,13 +293,47 @@ p{
 #asztalfog_a{
     color: white;
     text-decoration: underline;
+    font-size: larger;
 }
 
 .nyit{
     line-height: 5px;
+    font-size: large;
 }
 
 .nyit_v{
     line-height: 1px;
     
 }
+
+#lablec{
+    background-color: rgb(16, 16, 16);
+    margin: 0px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#lablec_p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#web_a{
+
+}
+
+#vonal{
+    margin: 0px;
+    background-color: rgb(16, 16, 16);
+    padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#prob_szoveg{
+    font-size: large;
+}
+
+
+
