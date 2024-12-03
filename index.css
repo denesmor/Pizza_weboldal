@@ -175,7 +175,6 @@ p{
     grid-template-columns: repeat(10, 60px);
     grid-template-rows: repeat(9, 60px);
     grid-gap: 15px; 
-    
 }
 
 .gallery__img{
@@ -217,10 +216,7 @@ p{
     grid-row-end: 10;
 }
 
-.image-container{
-    position: relative;
-    display: inline-block;
-}
+
 
 .image-container img {
     display: block;
@@ -228,13 +224,6 @@ p{
     height: auto;
 }
 
-.overlay-text{
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 
 
