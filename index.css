@@ -224,9 +224,33 @@ p{
     height: auto;
 }
 
+#kepszov1{
+    position: relative;
+    text-align: center;
+    bottom: 15%;
+}
 
+#kepszov2{
+    position: relative;
+    text-align: center;
+    bottom: 20%;
+}
 
+#kepszov3{
+    position: relative;
+    text-align: center;
+    bottom: 20%;
+}
 
+#kepszov4{
+    position: relative;
+    text-align: center;
+    bottom: 25%;
+}
+
+.geleri_p{
+    color: white;
+}
 
 .grid-container{
     background-color: rgb(16, 16, 16);
