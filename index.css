@@ -175,6 +175,7 @@ p{
     grid-template-columns: repeat(10, 60px);
     grid-template-rows: repeat(9, 60px);
     grid-gap: 15px; 
+    width: 736px;
 }
 
 .gallery__img{
@@ -330,11 +331,14 @@ p{
 #lablec_p{
     margin-top: 0px;
     margin-bottom: 0px;
+    background-color: rgb(16, 16, 16);
 }
 
+/*
 #web_a{
 
 }
+*/
 
 #vonal{
     margin: 0px;
@@ -343,10 +347,28 @@ p{
     padding-bottom: 50px;
     text-align: center;
 }
+#von{
+    background-color: rgb(16, 16, 16);
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #prob_szoveg{
     font-size: large;
 }
 
 
+
+@media only screen and (max-width: 900px){
+    body{
+        background-color: red;
+    }
+}
+    
+@media only screen and (max-width: 400px){
+    body{
+        background-color: green;
+    }
+}
 
