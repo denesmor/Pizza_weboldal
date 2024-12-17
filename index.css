@@ -60,8 +60,6 @@ p{
     float: right;
     width: 60%;
     text-align: left;
-    
-    
 }
 
 #pp{
@@ -358,17 +356,63 @@ p{
     font-size: large;
 }
 
-
+@media only screen and (max-width: 1100px){
+    body{
+        background-color: blue;
+    }
+}
 
 @media only screen and (max-width: 900px){
     body{
-        background-color: red;
+        background-color: pink;
+    }
+    
+    #piadina{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #piapi{
+        float: left;
+        width: 30%;
+        text-align: right;
+    }
+    
+    #piadina_szoveg{
+        float: right;
+        width: 55%;
+        text-align: left;
+        height: 40%;
+        
+    }
+    
+    #pp{
+        color: white;
+        text-align: right;
+        margin-bottom: 0%;
+        width: 45%;
+        padding-left: 50%;
     }
 }
     
 @media only screen and (max-width: 400px){
     body{
         background-color: green;
+    }
+
+    #fejlec{
+        background-size: 115%;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    #fejlec_cim{
+        
+    }
+    
+    #felso_menu{
+        
     }
 }
 
