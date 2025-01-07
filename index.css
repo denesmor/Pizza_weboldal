@@ -401,18 +401,55 @@ p{
     }
 
     #fejlec{
-        background-size: 115%;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 100%;
         width: 100%;
         padding: 0px;
         margin: 0px;
+        height: 250px;
     }
-    
+
     #fejlec_cim{
-        
+        padding-top: 45px;
+        padding-left: 20px;
     }
     
     #felso_menu{
+        visibility: hidden;
+    }
+    /*ez alatt nem jo*/
+    
+    #piadina{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    #piapi{
+        float: none;
+        width: 100%;
+        text-align: center;
         
     }
+    
+    #piadina_szoveg{
+        float: none;
+        width: 100%;
+        text-align: left;
+    }
+    
+    #pp{
+        text-align: center;
+        margin-bottom: 0%;
+        width: 100%;
+    }
+    
+    
+    
+    .pp_p{
+        margin-right: 10px;  
+        width: 100%;  
+    }
+
 }
 
